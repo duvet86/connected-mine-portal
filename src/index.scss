@@ -1,6 +1,9 @@
-@import "@material/button/mdc-button";
+@import "../node_modules/normalize.css/normalize.css";
 
-.foo-button {
-  @include mdc-button-ink-color(teal);
-  @include mdc-states(teal);
+@import "@material/typography/mdc-typography";
+@import "@material/top-app-bar/mdc-top-app-bar";
+
+html,
+body {
+  height: 100%;
 }

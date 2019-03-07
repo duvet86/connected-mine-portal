@@ -13,15 +13,60 @@
     -->
     <link rel="manifest" href="manifest.json" />
     <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
     <title>Connect Mine Portal</title>
   </head>
-  <body>
+  <body class="mdc-typography">
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <button class="foo-button mdc-button">
-      Button
-    </button>
+
+    <header class="mdc-top-app-bar mdc-top-app-bar--dense">
+      <div class="mdc-top-app-bar__row">
+        <section
+          class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+        >
+          <a href="#" class="material-icons mdc-top-app-bar__navigation-icon"
+            >menu</a
+          >
+          <span class="mdc-top-app-bar__title">Title</span>
+        </section>
+        <section
+          class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end"
+          role="toolbar"
+        >
+          <a
+            href="#"
+            class="material-icons mdc-top-app-bar__action-item"
+            aria-label="Download"
+            alt="Download"
+            >file_download</a
+          >
+          <a
+            href="#"
+            class="material-icons mdc-top-app-bar__action-item"
+            aria-label="Print this page"
+            alt="Print this page"
+            >print</a
+          >
+          <a
+            href="#"
+            class="material-icons mdc-top-app-bar__action-item"
+            aria-label="Bookmark this page"
+            alt="Bookmark this page"
+            >bookmark</a
+          >
+        </section>
+      </div>
+    </header>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
