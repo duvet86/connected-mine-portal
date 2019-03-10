@@ -61,7 +61,7 @@ module.exports = {
   mode: "development",
   // Enable sourcemaps for debugging webpack's output.
   devtool: "cheap-module-source-map",
-  entry: ["./src/index.scss", "./src/index.ts"],
+  entry: ["./src/index.scss", "./src/index.tsx"],
   output: {
     // Add /* filename */ comments to generated require()s in the output.
     pathinfo: true,
